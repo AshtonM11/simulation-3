@@ -16,8 +16,8 @@ export default class Auth extends Component {
     this.setState({ username: name });
   };
 
-  passHandleChange = pass => {
-    this.setState({ password: pass });
+  passHandleChange = passwordEntry => {
+    this.setState({ password: passwordEntry });
   };
 
   login = () => {
