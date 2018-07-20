@@ -28,7 +28,7 @@ export default class Auth extends Component {
       })
       .then(res => {
         if (res.data.length) {
-          console.log("Login successfull");
+          console.log("Login worked");
         } else {
           console.log("incorrect username or password");
         }
